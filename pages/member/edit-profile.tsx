@@ -2,7 +2,7 @@ export default function EditProfile() {
   return (
     // <!-- Transactions Detail -->
     <section className="edit-profile overflow-auto">
-        <section className="sidebar">
+        {/* <section className="sidebar">
             <div className="content pt-50 pb-30 ps-30">
                 <div className="user text-center pb-50 pe-30">
                     <img src="/img/avatar-1.png" width="90" height="90" className="img-fluid mb-20" />
@@ -130,7 +130,7 @@ export default function EditProfile() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         <main className="main-wrapper">
             <div className="ps-lg-0">
                 <h2 className="text-4xl fw-bold color-palette-1 mb-30">Settings</h2>
