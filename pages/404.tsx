@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 export default function custom404() {
   return (
     // <!-- Complete Checkout Content -->
@@ -190,7 +191,7 @@ export default function custom404() {
                     tidak tersedia pada sistem kami dan menghubungi</p>
             </div>
             <div className="button-group d-flex flex-column mx-auto">
-                <a className="btn btn-homepage fw-medium text-lg text-white rounded-pill" href="#"
+                <a className="btn btn-homepage fw-medium text-lg text-white rounded-pill" href="/"
                     role="button">Homepage</a>
             </div>
         </div>
