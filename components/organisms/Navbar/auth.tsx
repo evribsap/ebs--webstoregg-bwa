@@ -5,7 +5,7 @@ interface AuthProps {
     isLogin?: boolean;
 }
 
-export default function auth(props: Partial<AuthProps>) {
+export default function Auth(props: Partial<AuthProps>) {
     const {isLogin} = props;
     if ( isLogin ) {
         return (
